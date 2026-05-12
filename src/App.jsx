@@ -43,7 +43,7 @@ function App() {
   };
 
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(
-  `https://my-leave-slip.vercel.app`
+  `https://my-leave-slip.sg-maplecswq.workers.dev`
 )}`;
 
   return (
