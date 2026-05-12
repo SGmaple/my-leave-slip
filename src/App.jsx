@@ -43,7 +43,7 @@ function App() {
   };
 
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=${encodeURIComponent(
-  `学号:${data.studentId} 姓名:${data.name} 请假:${data.startTime}~${data.endTime}`
+  `https://my-leave-slip.vercel.app`
 )}`;
 
   return (
